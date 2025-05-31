@@ -448,22 +448,23 @@ h1:hover, h2:hover, h3:hover {
 
 .skills {
     position: relative;
+    padding-bottom: 6rem; /* Add space for the button */
 }
 
 #toggle-skills {
     position: absolute;
-    top: -1rem;
-    right: 0;
+    bottom: 1.5rem;
+    right: 2rem;
     background-color: var(--bg-light);
     color: var(--text-primary);
     border: 2px solid var(--accent);
-    padding: 5px 5px;
+    padding: 0.5rem 1.25rem;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease, color 0.3s ease;
     font-family: 'Baloo 2', 'Courier New', monospace;
     font-size: 1rem;
-    transform: translateY(50%);
+    z-index: 10;
 }
 
 #toggle-skills:hover {
