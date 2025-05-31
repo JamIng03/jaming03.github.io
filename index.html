@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>James' Portfolio</title>
+	<link rel="stylesheet" href="styles/style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600&display=swap">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+	<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 16 16%22><text y=%2214%22 font-size=%2214%22>🏆</text></svg>">
+</head>
+
+<body>
+	<div class="container">
+		<aside class="sidebar">
+			<button id="theme-toggle" class="theme-toggle">🌙</button>
+			<img src="images/profile_image.jpg" alt="James' Profile" class="profile-photo">
+			<div class="about-me">
+				<h1>Hi, I'm James</h1>
+				<p>I'm a final-year degree apprentice studying Digital and Technology Solutions with a focus on Software Engineering. 
+					Currently, I am part of the firmware team at Yunex Traffic, where I contribute to developing innovative solutions for traffic control systems. 
+					My journey blends academic learning with hands-on industry experience, 
+					equipping me with a strong foundation in both software development and embedded systems. 
+					Passionate about technology and problem-solving, 
+					I strive to drive innovation and create impactful software solutions.</p>
+				<h3>21 Years Old</h3>
+			</div>
+			<nav class="sidebar-nav">
+				<ul>
+					<li><a href="#skills">Skills</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#employment">Employment</a></li>
+					<li><a href="#education">Education</a></li>
+				</ul>
+			</nav>
+			<div class="icons">
+				<a href="https://github.com/JamIng03" target="_blank">
+					<i class="fab fa-github"></i>
+				</a>
+				<a href="https://www.linkedin.com/in/james-ingram-617844239/" target="_blank">
+					<i class="fab fa-linkedin"></i>
+				</a>
+			</div>
+
+		</aside>
+
+		<main class="main-content">
+			<section id="name-backup" class="hidden mobile">
+				<h2>Hi, I'm James</h2>
+			</section>
+			<section id="about-me-backup" class="skills backup hidden">
+				<h2>About Me</h2>
+				<p></p>I'm a final-year degree apprentice studying Digital and Technology Solutions with a focus on Software Engineering. 
+				Currently, I am part of the firmware team at Yunex Traffic, where I contribute to developing innovative solutions for traffic control systems. 
+				My journey blends academic learning with hands-on industry experience, 
+				equipping me with a strong foundation in both software development and embedded systems. 
+				Passionate about technology and problem-solving, 
+				I strive to drive innovation and create impactful software solutions.</p>
+			<p><b>Try my website in Desktop View / at greater resolutions for a different layout!
+			</section>
+			<section id="skills" class="skills">
+				<h2>Skills & Qualifications</h2>
+				<button id="toggle-skills" onclick="toggleSkills()">View More</button>
+				<div class="skills-grid">
+					<div class="skill-tile degree-tile">
+						<h3>BSc (Hons) Digital and Technology Solutions</h3>
+						<p>On the Software Engineering pathway working towards a 1st Class Honours at Solent University</p>
+					</div>
+					<div class="skill-tile a-level-tile">
+						<h3>A Levels</h3>
+						<p>A Levels in Physics, Computer Science, and Mathematics, showcasing strong analytical and problem-solving skills.</p>
+					</div>
+					<div class="skill-tile">
+						<h3>Firmware & Embedded Systems</h3>
+						<p>Proficient in C++ and Java for developing low-level firmware and embedded systems using OOP principles.</p>
+					</div>
+					<div class="skill-tile">
+						<h3>Python</h3>
+						<p>Proficient in API Development, JSON handling, Web Development, Threading, and Asynchronous Development.</p>
+					</div>
+					<div class="skill-tile">
+						<h3>Database Design & Integration (SQL)</h3>
+						<p>Experienced in integrating, designing (to suitable normal forms) and using databases through
+							SQL queries, commands and requests.</p>
+					</div>
+					<div class="skill-tile">
+						<h3>Version Control</h3>
+						<p>Experienced use and a strong understanding of version control, including GitHub and GitLab.</p>
+					</div>
+					<div class="skill-tile">
+						<h3>Docker & Kubernetes</h3>
+						<p>Skilled in Docker and Kubernetes for container management.</p>
+					</div>
+					<div class="skill-tile">
+						<h3>Project Management</h3>
+						<p>Experienced in leading the development of Software Engineering teams, an example being my Virtual License Card
+							application.</p>
+					</div>
+					<div class="skill-tile">
+						<h3>CI/CD Pipelines</h3>
+						<p>Experienced in designing and implementing Continuous Integration and Continuous Deployment (CI/CD) 
+							pipelines using tools like GitHub Actions, and GitLab CI/CD.</p>
+					</div>
+					<div class="skill-tile">
+						<h3>Software Testing</h3>
+						<p>Strong understanding and experience in organising and deploying complex software testing
+							techniques (such as Unit, Functional and Regression Testing).</p>
+					</div>
+					<div class="skill-tile">
+						<h3>Kotlin, Gradle</h3>
+						<p>Experienced in app development and deployment with the likes of Android Studio and Gradle.</p>
+					</div>
+					<div class="skill-tile">
+						<h3>Smart Cards & Virtual Smart Cards</h3>
+						<p>Skilled in developing and integrating smart card solutions conforming to ACOS3 and ISO7816 standards, with expertise in PC/SC interfaces and secure authentication protocols.</p>
+					</div>
+					<div class="skill-tile">
+						<h3>Documented Design</h3>
+						<p>Proficient in Microsoft Office Suite and online editors like Canva.</p>
+					</div>
+					<div class="skill-tile">
+						<h3>HTML, CSS, JS, Java</h3>
+						<p>Skilled in web design, wireframing, SYSML, and dynamic web development with RESTful
+							principles.</p>
+					</div>
+					<div class="skill-tile">
+						<h3>Software Documentation</h3>
+						<p>Experienced in the creation and maintenance of Software Documentation such as Risk
+							Assessments, Gantt Charts, Trello Boards etc.</p>
+					</div>
+					<div class="skill-tile">
+						<h3>Networks</h3>
+						<p>Strong understanding of network topologies, designs and congestion control.</p>
+					</div>
+					<div class="skill-tile">
+						<h3>Machine Learning & AI</h3>
+						<p>Experienced in building predictive models and working with frameworks like TensorFlow and scikit-learn to solve real-world problems.</p>
+					</div>
+					<div class="skill-tile">
+						<h3>Data Analysis</h3>
+						<p>Proficient in analyzing and visualizing data using tools such as Tableau and Power BI. 
+							Experienced in creating interactive dashboards, generating actionable insights, and presenting complex data.</p>
+					</div>
+					<div class="skill-tile dark-tile">
+						<h3>Always learning more :) ...</h3>
+						<p></p>
+					</div>
+				</div>
+			</section>
+
+			<section id="projects" class="projects">
+				<h2>Software Projects</h2>
+				<p>Select a Project to view it's details.</p>
+				<div class="projects-grid">
+					<div class="project-tile"
+						onclick="showProjectDetails('Virtual License Card [2025]', 'This project enables remote testing of smart card interactions by emulating a physical smart card with a virtual one. It seamlessly integrates with existing embedded systems using ARP requests and PCSC communication, creating a robust and flexible testing solution. By removing the need for physical cards, it enhances reliability, accelerates development, and supports automation in controlled environments.', 'Java, C++, ARP, DevOps, Jira, Confluence, Git, PCSC, PCSCD, ACOS3, ISO7816', event, false)">
+						<img src="images/VirtualSmartCard.png" alt="Virtual License Card Project">
+					</div>
+					<div class="project-tile"
+						onclick="showProjectDetails('Mindfulness Journal App [2024]','A fullstack web application for journaling and mood tracking. Users can create daily entries with text, mood selection, photos, audio, video, and links. The app features a calendar view, insights dashboard, and mood statistics, all with a modern, responsive UI. Data is stored locally in the browser for privacy, and the backend provides API endpoints for status checks and future extensibility.','React, Tailwind CSS, FastAPI, MongoDB, Python, Node.js, Docker, Nginx, Yarn, Poetry',event, false)">
+						<img src="images/MindfullnessJournal.png" alt="Mindfulness Journal App">
+					</div>
+					<div class="project-tile" 
+						onclick="showProjectDetails('Atmospheric Radiative Transfer Model Web Interface [2025]','A user-friendly web application for scientists working in satellite imaging, built to simplify the use of the Second Simulation of the Satellite Signal in the Solar Spectrum (6S) model. Users can intuitively configure atmospheric and geometric parameters, run radiative transfer simulations using Py6S, and visualize results as interactive tables and graphs. The platform supports both single and multiple wavelength simulations, making advanced atmospheric modeling accessible to non-experts.','Python, FastAPI, Streamlit, Py6S, Plotly, Conda, Linux',event, false)">
+						<img src="images/Py6sWebInterface.png" alt="Atmospheric Radiative Transfer Model Web Interface">
+					</div>
+					<div class="project-tile" 
+						onclick="showProjectDetails('Chrome Pomotroid [2021]','Chrome Pomotroid is a productivity extension that brings the Pomodoro technique to your browser. Users can create and manage multiple customizable countdown timers, each running independently and persisting even when the popup is closed. The extension features a modern, responsive UI and leverages Chrome\'s background service workers to ensure timers continue running in the background. Notifications alert users when timers complete, supporting focused work sessions and effective time management.','JavaScript, Chrome Extensions, HTML, CSS, Service Workers, Notifications, Storage API',event, false)">
+						<img src="images/ChromePomotroid.png" alt="Chrome Pomotroid Project">
+					</div>
+					<div class="project-tile" 
+						onclick="showProjectDetails('Micro CRM [2023]','Micro CRM is a lightweight Customer Relationship Management system for small businesses. It provides RESTful APIs for managing users, products, invoices, documents, and inventory. Built with FastAPI and SQLite, it enables rapid business process automation and can be easily extended or integrated with other tools.','Python, FastAPI, SQLite, SQLAlchemy, Pydantic, Uvicorn, REST, Pytest',event,false)">
+						<img src="images/MicroCrm.png" alt="Micro CRM Project">
+					</div>
+				</div>
+				<div id="project-details" class="project-details">
+					<h3 id="project-title">Select a project</h3>
+					<p id="project-description">Project details will appear here.</p>
+					<span>
+						<h3 id="project-languages-header">Project Languages, Tools and Methodologies:</h3>
+						<p id="project-languages-description">The details of the methods, tools and languages used will
+							appear here.</p><button id="website-button">Check it Out!</button>
+					</span>
+				</div>
+			</section>
+
+			<section id="employment" class="employment-history">
+				<h2>Employment History</h2>
+				<div class="employment-tile current-place">
+					<img src="images/YunexTraffic.png" alt="Yunex Traffic Logo">
+					<div>
+						<h3>Degree Apprentice – Yunex Traffic (2022 – Present)</h3>
+						<p>Working in the firmware team, contributing to the development of innovative solutions for traffic control systems as part of my degree apprenticeship.</p>
+					</div>
+				</div>
+				<div class="employment-tile">
+					<img src="images/CotswoldOutdoor.jpg" alt="Cotswold Outdoor Logo">
+					<div>
+						<h3>Retail Assistant – Cotswold Outdoor (2021 – 2022)</h3>
+						<p>Provided customer service and support in a busy outdoor retail environment, assisting customers with product selection and maintaining store standards.</p>
+					</div>
+				</div>
+				<div class="employment-tile">
+					<img src="images/PetsCorner.png" alt="Pets Corner Logo">
+					<div>
+						<h3>Retail Assistant – Pets Corner (2020 – 2021)</h3>
+						<p>Supported daily store operations, delivered excellent customer service, and maintained product displays in a pet retail setting.</p>
+					</div>
+				</div>
+			</section>
+
+			<section id="education" class="employment-history">
+				<h2>Education</h2>
+				<div class="employment-tile current-place">
+					<img src="images/SouthamptonSolentUniversity.png" alt="Southampton University Logo">
+					<div>
+						<h3>Southampton Solent University (2022)</h3>
+						<p>BSc (Hons) Digital and Technology Solutions (Software Engineering pathway) - On track to graduate with First Class Honours</p>
+					</div>
+				</div>
+				<div class="employment-tile">
+					<img src="images/FerndownUpperSchool.png" alt="Ferndown Upper School Logo">
+					<div>
+						<h3>Ferndown Upper School (2020 - 2022)</h3>
+						<p>A-levels in Mathematics, Physics, and Computer Science.</p>
+					</div>
+				</div>
+				<div class="employment-tile">
+					<img src="images/GlenmoorAndWintonAcademies.png" alt="Glenmoor and Winton Academy Logo">
+					<div>
+						<h3>Glenmoor and Winton Academy (2017 - 2020)</h3>
+						<p>11 GCSE's (Grades 6-8) (B-A*)</p>
+					</div>
+				</div>
+			</section>
+		</main>
+	</div>
+
+	<script src="scripts/script.js"></script>
+</body>
+
+</html>
